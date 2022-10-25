@@ -9,21 +9,15 @@ import
   useColorModeValue
   } from "@chakra-ui/react"
 
-  import { MdTimer, MdVideoLibrary } from "react-icons/md";
   import { IoEllipsisHorizontalSharp } from "react-icons/io5";
   import { FaTools, FaFistRaised } from "react-icons/fa"
 
 const Card = () => {
-    let boxBg = useColorModeValue("white", "white");
-    let secondaryBg = useColorModeValue("gray.50", "whiteAlpha.100");
-    let iconBox = useColorModeValue("gray.100", "whiteAlpha.200");
-    let mainText = useColorModeValue("gray.800", "black");
-    let iconColor = useColorModeValue("brand.200", "white");
   return(
     <Flex
     m={8}
     borderRadius='20px'
-    bg={boxBg}
+    bgColor="#f5f5f5"
     h='345px'
     w={{ base: "315px", md: "345px" }}
     direction='column'>
@@ -34,7 +28,7 @@ const Card = () => {
       </Box>
       <Flex
       boxShadow='lg'
-        bg={secondaryBg}
+      bgColor="#f5f5f5"
         w='100%'
         p='20px'
         borderBottomLeftRadius='inherit'

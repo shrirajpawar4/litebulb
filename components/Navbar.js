@@ -24,15 +24,17 @@ import
   Spacer
   } from "@chakra-ui/react"
 
-  import { FaRegLightbulb, FaSearch } from "react-icons/fa"
+import { FaRegLightbulb, FaSearch } from "react-icons/fa"
 import Card from "./Card";
+
+import Hero from "../public/hero.png"
 
 
 const Navbar = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     return(
         <>
-        <HStack>
+        <HStack bgColor="#f5f5f5">
         <Button 
             ml={6}
             mt={3}
@@ -71,6 +73,9 @@ const Navbar = () => {
             </Modal>
         </HStack>
         <Divider />
+        <Flex>
+            <Image src={Hero} alt="Image" />
+        </Flex>
         </>
     )
 }
