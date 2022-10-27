@@ -45,7 +45,9 @@ const Navbar = () => {
             size="md"
             height='48px'
             width='200px'
-            >lightBulb</Button>
+            
+            >lightBulb
+            </Button>
 
             <Spacer />
             
@@ -66,7 +68,7 @@ const Navbar = () => {
             </Flex>
 
             <Modal isOpen={isOpen} onClose={onClose}>
-            <ModalOverlay />
+            <ModalOverlay color='whiteAlpha.900' />
             <ModalContent color='whitesmoke'>
                 <Card />
             </ModalContent>

@@ -9,6 +9,7 @@ import
   useColorModeValue
   } from "@chakra-ui/react"
 
+  import myIcon from "../public/icon.svg"
   import { IoEllipsisHorizontalSharp } from "react-icons/io5";
   import { FaTools, FaFistRaised } from "react-icons/fa"
 
@@ -23,7 +24,7 @@ const Card = () => {
     direction='column'>
     <Box p='20px'>
       <Flex w='100%' mb='10px'>
-        <Image src='' me='auto' />
+        <Image me='auto' />
       </Flex>
       </Box>
       <Flex

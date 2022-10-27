@@ -10,14 +10,14 @@ import Navbar from '../components/Navbar';
 export default function Home() {
   return (
     <>
-    {/* <Landing /> */}
+    <Landing />
 
-    <Navbar />
-    <HStack>
+    {/* <Navbar /> */}
+    {/* <HStack>
     <Card />
     <Card />
     <Card />
-    </HStack>
+    </HStack> */}
     </>
   )
 }
