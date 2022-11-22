@@ -11,7 +11,7 @@ export default function Landing() {
     <div>
     <Flex position={"fixed"} top={"0"} width={"100%"} background={"#EEEEEE"}  justifyItems={"center"} alignItems={"center"} flexDir={"row"} paddingTop={{base:"12px",md:"28px"}} paddingBottom={{base:"12px",md:"28px"}}>
         <Flex paddingLeft={{base:"20px",md:"140px"}} paddingRight={{base:"20px",md:"151px"}} justifyItems={"center"} alignItems={"center"} justifyContent={"space-between"} width={"100%"}>
-        <Text color={"#B1AFFF"} fontSize={{base:"24px",md:"32px"}} fontFamily={"Poppins, sans-serif"} fontWeight={"700"} lineHeight={"38px"}>Grapevine</Text>
+        <Text color={"blackAlpha.900"} fontSize={{base:"24px",md:"32px"}} fontFamily={"Poppins, sans-serif"} fontWeight={"700"} lineHeight={"38px"}>lightBulb</Text>
         <Button 
         color="#B1AFFF" 
         bgColor="blackAlpha.900" 
